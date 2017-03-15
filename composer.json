@@ -1,0 +1,24 @@
+{
+    "name": "kot-soft/parser"
+    ,"type": "library"
+    ,"description": "parsing pages and manage time to run"
+    ,"version": "1.0.0"
+    ,"keywords": []
+    ,"homepage": ""
+    ,"license": "MIT"
+    ,"authors": [
+        {
+            "name": "Anisimov Kostya"
+            ,"email": "kostiaGm@gmail.com"
+            ,"homepage": ""
+            ,"role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": ["kot-soft/"]
+    },
+    "require": {
+        "electrolinux/phpquery": "^0.9.6",
+        "workerman/phpsocket.io": "^1.1"
+    }
+}
